@@ -34,3 +34,4 @@ node_modules
             а потом ещё одну feacher/about-company
 создать ветку git branch develop
 переключиться на ветку git checkout develop // все изменения будут только на этой ветке
+отправить ветку в репозиторий git push origin develop
