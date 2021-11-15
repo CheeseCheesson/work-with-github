@@ -1,3 +1,6 @@
+origin       значит       https://github.com/CheeseCheesson/work-with-github.git
+
+//1
 Создать новый фаил touch file.txt
 Создать новый проект git init
 Добавить фаил git add index.js index.html
@@ -11,5 +14,13 @@ git push [rep_link] [branch_name]
 посмотреть ссылку на репозиторий git remote -v  
 Посмотреть назване ветки git branch
 
+//2
+удалить ненужный фаил из stage git reset [file.txt]
+просмотреть все изменения git diff или для одного файла git diff [file.txt]
+уберёт все изменения git reset --hard
 
-origin       значит       https://github.com/CheeseCheesson/work-with-github.git
+//3
+.gitignore содержание
+build
+node_modules
+.env
