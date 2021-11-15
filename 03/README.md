@@ -6,3 +6,5 @@
 Просмотреть запись с комментарием git log
 Просмотреть запись кратко git log --oneline
 git push [rep_link] [branch_name]
+посмотреть ссылку на репозиторий git remote -v  
+Посмотреть назване ветки git branch
