@@ -4,3 +4,5 @@
 Добавить фаил в stage git add .
 Закоммитить git commit -m 'my comment'
 Просмотреть запись с комментарием git log
+Просмотреть запись кратко git log --oneline
+git push [rep_link] [branch_name]
