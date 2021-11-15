@@ -58,3 +58,8 @@ node_modules
 //6
 удалить ненужную ветку git branch -d [branchName]
 
+перенести develop в ветку main
+переключаемся на ветку main git checkout main
+git merge develop
+потом git push origin main
+удалить ненужную ветку на GitHub
