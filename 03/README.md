@@ -35,3 +35,26 @@ node_modules
 создать ветку git branch develop
 переключиться на ветку git checkout develop // все изменения будут только на этой ветке
 отправить ветку в репозиторий git push origin develop
+
+
+//5
+перенос с ветки на ветку
+    можно совместить ветки в самом github -> 
+        Pull request ->
+            New pull request -> 
+                выбрать ветки для совмещения -> 
+                    create pull request ->
+                        Написать заголовок и описание ->
+                            create pull request
+                                можно делать ревью, добавлять комментарии и исправлять ошибки ->
+                                    Confirm merge -> 
+                                        удалить ненужную ветке Delete branch -> 
+                                            в редакторе кода переключится на существующую можно на основную ветку ->
+                                                потащить все изменения из github  git pull origin main
+                                            
+Слияние веток при помощи команды git merge
+
+
+//6
+удалить ненужную ветку git branch -d [branchName]
+
