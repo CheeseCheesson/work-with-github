@@ -17,10 +17,20 @@ git push [rep_link] [branch_name]
 //2
 удалить ненужный фаил из stage git reset [file.txt]
 просмотреть все изменения git diff или для одного файла git diff [file.txt]
-уберёт все изменения git reset --hard
+уберёт все изменения до предедущего коммита git reset --hard
 
 //3
 .gitignore содержание
 build
 node_modules
 .env
+
+
+//4
+ветки
+проверить ветки git branch
+    создать ветку develop,
+        от неё можно создатоь ещё одну ветку feacher/main-page,
+            а потом ещё одну feacher/about-company
+создать ветку git branch develop
+переключиться на ветку git checkout develop // все изменения будут только на этой ветке
